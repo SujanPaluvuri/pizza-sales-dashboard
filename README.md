@@ -73,7 +73,7 @@ SELECT pizza_category,
        ROUND(SUM(quantity) * 100.0 / (SELECT SUM(quantity) FROM pizza_sales), 2) AS percentage_share
 FROM pizza_sales
 GROUP BY pizza_category;
-
+```
 ---
 ## How to Run
 1.Clone  this Repository
