@@ -73,3 +73,9 @@ SELECT pizza_category,
        ROUND(SUM(quantity) * 100.0 / (SELECT SUM(quantity) FROM pizza_sales), 2) AS percentage_share
 FROM pizza_sales
 GROUP BY pizza_category;
+
+---
+## How to Run
+1.Clone  this Repository
+2.Open https://github.com/SujanPaluvuri/pizza-sales-dashboard
+3.Open Pizza Dashboard.pbit (one pbit file will be downloaded , opne that file then you will be redirected to Power_Bi Destkop project
